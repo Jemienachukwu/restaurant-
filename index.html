@@ -14,9 +14,9 @@
           <a href="#">Home</a>
           <a href="#About">About</a>
           <a href="#Team">Team</a>
-          <a href="#">Menu</a>
+          <a href="#Bookings">Bookings</a>
           <div class="circle"></div>
-          <a href="#">Bookings</a>
+          <a href="#Menu">Menu</a>
           <a href="#">Events</a>
           <a href="#">Servies</a>
           <a href="#">Reception</a>
@@ -28,7 +28,7 @@
           <p>Restaurant</p>
           <h1>HUNGRY PEOPLE</h1>
           <div class="dash"></div>
-          <button>Book Table</button>
+          <a href="#Bookings"><button>Book Table</button></a>
           <button>Explore</button>
         </div>
       </div>
@@ -59,17 +59,17 @@
         <div class="box"></div>
       </div>
     </div>
+    <p class="top-text">OUR TEAM</p>
 
     <div class="class-2" id="Team">
-      <p class="top-text">OUR TEAM</p>
       <div class="img">
-        <img src="img/servies.jpg" alt="" />
+        <img src="img/servies.jpg" alt="img" />
         <div class="box"></div>
       </div>
 
       <div class="text2">
         <div>
-          <h1>Team</h1>
+          <h1>MASTER CHEF</h1>
           <div class="dash"></div>
           <h4>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -85,19 +85,65 @@
       </div>
     </div>
 
-    <!-- <div class="class-3" #Mean>
-      <div class="menu-container">
+    <div class="class-3" id="Bookings">
+      <div class="bookings-container">
         <h1>BOOK A TABLE</h1>
-        <div class="menu">
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <input type="tel" placeholder="Phone">
-          <input type="text" placeholder="People">
-          <input type="date" placeholder="Date (mm/dd)">
-          <input type="time" placeholder="Time">
+        <div class="dash"></div>
+
+        <div class="bookings">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Phone" />
+          <select>
+            <option value="1">people</option>
+            <option value="2">2 persons</option>
+            <option value="3">4 persons</option>
+            <option value="3">10 persons</option>
+          </select>
+          <input type="date" placeholder="Date (mm/dd)" />
+          <input type="time" placeholder="Time" />
         </div>
         <button>BOOK NOW</button>
       </div>
-    </div> -->
+      <div class="img">
+        <img src="img/BEN.jpg" alt="img" />
+        <div class="box"></div>
+      </div>
+    </div>
+    <p class="bottom-text">Mon-fri:8am-10pm sun-sat:12pm-2am</p>
+    <div class="class-4-container">
+      <p class="top-text">SPECIALIST</p>
+      <div class="class-4" id="About">
+        <div class="img">
+          <img src="img/melissa-walker-horn-gtDYwUIr9Vg-unsplash.jpg" alt="" />
+          <div class="box"></div>
+        </div>
+        <div class="text4">
+          <div>
+            <h1>CHOCOLATE PANCAKE</h1>
+            <div class="dash"></div>
+            <strong
+              ><h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitationem tempore fugiat minima.
+              </h4></strong
+            >
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. sit
+              consequuntur quis perspiciatis ullam amet labore ab iure veritatis
+              vel consequatur dolore soluta quia explicabo enim ducimus harum?
+              Porro, quos!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dots">
+        <div onclick="cocktail()" id="cock-tail" class="dot">&bull;</div>
+        <div onclick="specialist()" id="dessert" class="dot">&bull;</div>
+        <div onclick="engineer()" id="barbeq" class="dot">&bull;</div>
+      </div>
+    </div>
   </body>
+  <script src="index.js"></script>
 </html>
